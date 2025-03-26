@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-14T07:47:48 GMT" name="flight-reservation" finished-at="2025-03-14T07:48:40 GMT" duration-ms="51964">
+    <groups>
+    </groups>
+    <test started-at="2025-03-14T07:47:48 GMT" name="passengers-count-1" finished-at="2025-03-14T07:48:04 GMT" duration-ms="15329">
+      <class name="flightreservation.test.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:47:48 GMT" name="setDriver" finished-at="2025-03-14T07:47:56 GMT" duration-ms="7260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@195580ba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:47:56 GMT" name="setParameters" finished-at="2025-03-14T07:47:56 GMT" depends-on-methods="abstracttest.AbstractTest.setDriver" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata/flightreservation/passenger-1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:47:56 GMT" name="userRegistrationTest" finished-at="2025-03-14T07:47:58 GMT" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:47:58 GMT" name="registrationConfirmationTest" finished-at="2025-03-14T07:47:59 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.userRegistrationTest" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:47:59 GMT" name="flightsSearchTest" finished-at="2025-03-14T07:48:01 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.registrationConfirmationTest" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:48:01 GMT" name="flightsSelectionTest" finished-at="2025-03-14T07:48:03 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSearchTest" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:48:03 GMT" name="flightReservationConfirmationTest" finished-at="2025-03-14T07:48:03 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSelectionTest" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:flightreservation.test.FlightReservationTest@6676f6a0]" started-at="2025-03-14T07:48:03 GMT" name="quitDriver" finished-at="2025-03-14T07:48:04 GMT" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- flightreservation.test.FlightReservationTest -->
+    </test> <!-- passengers-count-1 -->
+    <test started-at="2025-03-14T07:48:04 GMT" name="passengers-count-2" finished-at="2025-03-14T07:48:16 GMT" duration-ms="12857">
+      <class name="flightreservation.test.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:04 GMT" name="setDriver" finished-at="2025-03-14T07:48:06 GMT" duration-ms="2863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c25cfe1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:06 GMT" name="setParameters" finished-at="2025-03-14T07:48:06 GMT" depends-on-methods="abstracttest.AbstractTest.setDriver" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata/flightreservation/passenger-2.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:06 GMT" name="userRegistrationTest" finished-at="2025-03-14T07:48:09 GMT" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:09 GMT" name="registrationConfirmationTest" finished-at="2025-03-14T07:48:10 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.userRegistrationTest" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:10 GMT" name="flightsSearchTest" finished-at="2025-03-14T07:48:12 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.registrationConfirmationTest" duration-ms="2296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:12 GMT" name="flightsSelectionTest" finished-at="2025-03-14T07:48:14 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSearchTest" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:14 GMT" name="flightReservationConfirmationTest" finished-at="2025-03-14T07:48:16 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSelectionTest" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:flightreservation.test.FlightReservationTest@1bd39d3c]" started-at="2025-03-14T07:48:16 GMT" name="quitDriver" finished-at="2025-03-14T07:48:16 GMT" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- flightreservation.test.FlightReservationTest -->
+    </test> <!-- passengers-count-2 -->
+    <test started-at="2025-03-14T07:48:17 GMT" name="passengers-count-3" finished-at="2025-03-14T07:48:28 GMT" duration-ms="11498">
+      <class name="flightreservation.test.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:17 GMT" name="setDriver" finished-at="2025-03-14T07:48:19 GMT" duration-ms="2470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d3c112a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:19 GMT" name="setParameters" finished-at="2025-03-14T07:48:19 GMT" depends-on-methods="abstracttest.AbstractTest.setDriver" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata/flightreservation/passenger-3.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:19 GMT" name="userRegistrationTest" finished-at="2025-03-14T07:48:21 GMT" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:21 GMT" name="registrationConfirmationTest" finished-at="2025-03-14T07:48:22 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.userRegistrationTest" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:22 GMT" name="flightsSearchTest" finished-at="2025-03-14T07:48:23 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.registrationConfirmationTest" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:23 GMT" name="flightsSelectionTest" finished-at="2025-03-14T07:48:26 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSearchTest" duration-ms="2527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:26 GMT" name="flightReservationConfirmationTest" finished-at="2025-03-14T07:48:27 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSelectionTest" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:flightreservation.test.FlightReservationTest@119cbf96]" started-at="2025-03-14T07:48:27 GMT" name="quitDriver" finished-at="2025-03-14T07:48:28 GMT" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- flightreservation.test.FlightReservationTest -->
+    </test> <!-- passengers-count-3 -->
+    <test started-at="2025-03-14T07:48:28 GMT" name="passengers-count-4" finished-at="2025-03-14T07:48:40 GMT" duration-ms="12195">
+      <class name="flightreservation.test.FlightReservationTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:47:48 GMT" name="setupConfig" finished-at="2025-03-14T07:47:48 GMT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:28 GMT" name="setDriver" finished-at="2025-03-14T07:48:31 GMT" duration-ms="3112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a140ce5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:31 GMT" name="setParameters" finished-at="2025-03-14T07:48:31 GMT" depends-on-methods="abstracttest.AbstractTest.setDriver" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata/flightreservation/passenger-4.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:31 GMT" name="userRegistrationTest" finished-at="2025-03-14T07:48:33 GMT" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:33 GMT" name="registrationConfirmationTest" finished-at="2025-03-14T07:48:34 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.userRegistrationTest" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:34 GMT" name="flightsSearchTest" finished-at="2025-03-14T07:48:37 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.registrationConfirmationTest" duration-ms="2361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:37 GMT" name="flightsSelectionTest" finished-at="2025-03-14T07:48:39 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSearchTest" duration-ms="2488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:39 GMT" name="flightReservationConfirmationTest" finished-at="2025-03-14T07:48:39 GMT" depends-on-methods="flightreservation.test.FlightReservationTest.flightsSelectionTest" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:flightreservation.test.FlightReservationTest@5454d35e]" started-at="2025-03-14T07:48:39 GMT" name="quitDriver" finished-at="2025-03-14T07:48:40 GMT" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- flightreservation.test.FlightReservationTest -->
+    </test> <!-- passengers-count-4 -->
+  </suite> <!-- flight-reservation -->
+  <suite started-at="2025-03-14T07:48:40 GMT" name="vendor-portal" finished-at="2025-03-14T07:49:00 GMT" duration-ms="20106">
+    <groups>
+    </groups>
+    <test started-at="2025-03-14T07:48:40 GMT" name="user-sam" finished-at="2025-03-14T07:48:56 GMT" duration-ms="16235">
+      <class name="vendorportal.test.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:vendorportal.test.VendorPortalTest@59e505b2]" started-at="2025-03-14T07:48:40 GMT" name="setDriver" finished-at="2025-03-14T07:48:45 GMT" duration-ms="4557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f71194d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:vendorportal.test.VendorPortalTest@59e505b2]" started-at="2025-03-14T07:48:45 GMT" name="setPageObjects" finished-at="2025-03-14T07:48:45 GMT" depends-on-methods="abstracttest.AbstractTest.setDriver" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:vendorportal.test.VendorPortalTest@59e505b2]" started-at="2025-03-14T07:48:45 GMT" name="loginTest" finished-at="2025-03-14T07:48:48 GMT" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:vendorportal.test.VendorPortalTest@59e505b2]" started-at="2025-03-14T07:48:48 GMT" name="dashboardTest" finished-at="2025-03-14T07:48:51 GMT" depends-on-methods="vendorportal.test.VendorPortalTest.loginTest" duration-ms="3045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:vendorportal.test.VendorPortalTest@59e505b2]" started-at="2025-03-14T07:48:51 GMT" name="logoutTest" finished-at="2025-03-14T07:48:55 GMT" depends-on-methods="vendorportal.test.VendorPortalTest.dashboardTest" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:vendorportal.test.VendorPortalTest@59e505b2]" started-at="2025-03-14T07:48:55 GMT" name="quitDriver" finished-at="2025-03-14T07:48:56 GMT" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- vendorportal.test.VendorPortalTest -->
+    </test> <!-- user-sam -->
+    <test started-at="2025-03-14T07:48:40 GMT" name="user-mike" finished-at="2025-03-14T07:48:57 GMT" duration-ms="16987">
+      <class name="vendorportal.test.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:vendorportal.test.VendorPortalTest@79dc5318]" started-at="2025-03-14T07:48:40 GMT" name="setDriver" finished-at="2025-03-14T07:48:48 GMT" duration-ms="7954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@db99785]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:vendorportal.test.VendorPortalTest@79dc5318]" started-at="2025-03-14T07:48:48 GMT" name="setPageObjects" finished-at="2025-03-14T07:48:48 GMT" depends-on-methods="abstracttest.AbstractTest.setDriver" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:vendorportal.test.VendorPortalTest@79dc5318]" started-at="2025-03-14T07:48:48 GMT" name="loginTest" finished-at="2025-03-14T07:48:53 GMT" duration-ms="4965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:vendorportal.test.VendorPortalTest@79dc5318]" started-at="2025-03-14T07:48:53 GMT" name="dashboardTest" finished-at="2025-03-14T07:48:54 GMT" depends-on-methods="vendorportal.test.VendorPortalTest.loginTest" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:vendorportal.test.VendorPortalTest@79dc5318]" started-at="2025-03-14T07:48:54 GMT" name="logoutTest" finished-at="2025-03-14T07:48:56 GMT" depends-on-methods="vendorportal.test.VendorPortalTest.dashboardTest" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:vendorportal.test.VendorPortalTest@79dc5318]" started-at="2025-03-14T07:48:56 GMT" name="quitDriver" finished-at="2025-03-14T07:48:57 GMT" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- vendorportal.test.VendorPortalTest -->
+    </test> <!-- user-mike -->
+    <test started-at="2025-03-14T07:48:40 GMT" name="user-john" finished-at="2025-03-14T07:49:00 GMT" duration-ms="20106">
+      <class name="vendorportal.test.VendorPortalTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:vendorportal.test.VendorPortalTest@6f7923a5]" started-at="2025-03-14T07:48:40 GMT" name="setupConfig" finished-at="2025-03-14T07:48:40 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:vendorportal.test.VendorPortalTest@6f7923a5]" started-at="2025-03-14T07:48:40 GMT" name="setDriver" finished-at="2025-03-14T07:48:52 GMT" duration-ms="11921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@70716259]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:vendorportal.test.VendorPortalTest@6f7923a5]" started-at="2025-03-14T07:48:52 GMT" name="setPageObjects" finished-at="2025-03-14T07:48:52 GMT" depends-on-methods="abstracttest.AbstractTest.setDriver" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdata/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:vendorportal.test.VendorPortalTest@6f7923a5]" started-at="2025-03-14T07:48:52 GMT" name="loginTest" finished-at="2025-03-14T07:48:56 GMT" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:vendorportal.test.VendorPortalTest@6f7923a5]" started-at="2025-03-14T07:48:56 GMT" name="dashboardTest" finished-at="2025-03-14T07:48:58 GMT" depends-on-methods="vendorportal.test.VendorPortalTest.loginTest" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:vendorportal.test.VendorPortalTest@6f7923a5]" started-at="2025-03-14T07:48:58 GMT" name="logoutTest" finished-at="2025-03-14T07:48:59 GMT" depends-on-methods="vendorportal.test.VendorPortalTest.dashboardTest" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:vendorportal.test.VendorPortalTest@6f7923a5]" started-at="2025-03-14T07:48:59 GMT" name="quitDriver" finished-at="2025-03-14T07:49:00 GMT" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- vendorportal.test.VendorPortalTest -->
+    </test> <!-- user-john -->
+  </suite> <!-- vendor-portal -->
+</testng-results>
