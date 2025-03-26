@@ -14,7 +14,7 @@ pipeline{
         {
         steps{
 
-                echo "docker build -t=javadevelopmentcourse/selenium-web-automation-docker ."
+                bat "docker build -t=javadevelopmentcourse/selenium-web-automation-docker ."
             }
         }
 
@@ -22,7 +22,7 @@ pipeline{
         {
         steps{
 
-                echo "docker push javadevelopmentcourse/selenium-web-automation-docker"
+                bat "docker push javadevelopmentcourse/selenium-web-automation-docker"
             }
         }
     }
