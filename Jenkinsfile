@@ -7,8 +7,7 @@ pipeline{
         stage('BUILD JAR')
         {
             steps{
-                bat "mvn clean package --DskipTests"
-
+                bat "mvn clean package -DskipTests"
             }
         }
         stage('BUILD DOCKER IMAGE')
