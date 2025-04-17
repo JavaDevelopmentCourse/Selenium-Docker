@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Dadadriver suite"  >
+    <!-- suite name="Suite Name" -->
+    <suite-files>
+        <!--<suite-file path="src//test//resources//test-suites//flight-reservation.xml" />-->
+        <suite-file path="./flight-reservation.xml" />
+        <suite-file path="./testng-suite.xml" />
+    </suite-files>
+</suite>
