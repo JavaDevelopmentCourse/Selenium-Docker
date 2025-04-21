@@ -4,6 +4,6 @@
     <suite-files>
         <!--<suite-file path="src//test//resources//test-suites//flight-reservation.xml" />-->
         <suite-file path="./flight-reservation.xml" />
-        <suite-file path="./testng-suite.xml" />
+        <suite-file path="./vendor-portal.xml" />
     </suite-files>
 </suite>

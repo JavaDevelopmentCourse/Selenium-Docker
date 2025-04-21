@@ -87,8 +87,8 @@
                         <selenium.grid.enabled>true</selenium.grid.enabled>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <file>src/test/resources/test-suites/vendor-portal.xml</file>
-                        <file>src/test/resources/test-suites/flight-reservation.xml</file>
+                        <file>src/test/resources/test-suites/testng-suite.xml</file>
+                        <!--<file>src/test/resources/test-suites/flight-reservation.xml</file>-->
                     </suiteXmlFiles>
                     <threadCount>4</threadCount>
                     <reportsDirectory>target/test-output</reportsDirectory>
